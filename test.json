@@ -9,42 +9,22 @@
       [{
         "id" :1,
         "name" : "case-1",
-        "GITHUB_PLAYBOOK_URL": "github.com/openebs/e2e-results/playbooks/playbook1.yaml",
-        "GITHUB_STATUS_ISSUE" : "github.com/openebs/e2e-results/issues/issuenumber",
-        "TESTRAIL_TESTCASE_ID" : "https://openebs.testrail.io/index.php?/cases/view/1",
-        "status_id": "1"
+        "GITHUB_PLAYBOOK_URL": "https://raw.githubusercontent.com/ashishranjan738/demoe2e/master/demo.yml",
+        "GITHUB_STATUS_ISSUE" : "https://github.com/ashishranjan738/demoe2e/issues/1",
+        "repo_name": "demoe2e",
+        "issue_number": 1,
+        "TESTRAIL_TESTCASE_ID" : "https://openebs.testrail.io/index.php?/cases/view/1"
       },
       {
         "id" :2,
         "name" : "case-2",
-        "GITHUB_PLAYBOOK_URL": "https://github.com/openebs/e2e-results/playbooks/playbook2.yaml",
-        "GITHUB_STATUS_ISSUE" : "https://github.com/openebs/e2e-results/issues/issuenumber",
-        "TESTRAIL_TESTCASE_ID" : "https://openebs.testrail.io/index.php?/cases/view/2",
-        "status_id": "5"
+        "GITHUB_PLAYBOOK_URL": "https://raw.githubusercontent.com/ashishranjan738/demoe2e/master/demo2.yml",
+        "GITHUB_STATUS_ISSUE" : "https://github.com/ashishranjan738/demoe2e/issues/2",
+        "repo_name": "demoe2e",
+        "issue_number": 2,
+        "TESTRAIL_TESTCASE_ID" : "https://openebs.testrail.io/index.php?/cases/view/1"
       }],
       "suite_url" : "https://openebs.testrail.io/index.php?/suites/view/12"
-    },
-    {
-      "suite_id": 2,
-      "name" :"suite-2",
-      "cases" :
-      [{
-        "id" :3,
-        "name" : "case-3",
-        "GITHUB_PLAYBOOK_URL": "github.com/openebs/e2e-results/playbooks/playbook3.yaml",
-        "GITHUB_STATUS_ISSUE" : "github.com/openebs/e2e-results/issues/issuenumber",
-        "TESTRAIL_TESTCASE_ID" : "https://openebs.testrail.io/index.php?/cases/view/3",
-        "status_id": "1"
-      },
-      {
-        "id" :4,
-        "name" : "case-4",
-        "GITHUB_PLAYBOOK_URL": "https://github.com/openebs/e2e-results/playbooks/playbook4.yaml",
-        "GITHUB_STATUS_ISSUE" : "https://github.com/openebs/e2e-results/issues/issuenumber",
-        "TESTRAIL_TESTCASE_ID" : "https://openebs.testrail.io/index.php?/cases/view/4",
-        "status_id": "1"
-      }],
-      "suite_url" : "https://openebs.testrail.io/index.php?/suites/view/13"
     }],
     "clusters":["GKE","AWS"]
   }
