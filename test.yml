@@ -3,15 +3,14 @@ Platform:
 - AWS:
     Description: A short description
     Test Suite:
-     - 19
-     - 20
+     - 19:
+     - 20:
 - GCP:
     Description: A short description
     Test Suite:
-     - 19
+     - 19:
 - Azure:
     Description: A short description
     Test Suite:
-     - 19
-     - 20:
-         Description: A short Description for test suite
+     - 19:
+     - 20: A short Description for test suite
