@@ -1,2 +1,16 @@
-- suites:
-   - 23
+TestRailProjectID: 1
+Platform:
+- AWS:
+    Description: A short description
+    Test Suite:
+     - 19
+     - 20
+- GCP:
+    Description: A short description
+    Test Suite:
+     - 19
+- Azure:
+    Description: A short description
+    Test Suite:
+     - 20:
+       Description: A short Description for test suite
