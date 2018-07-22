@@ -12,5 +12,6 @@ Platform:
 - Azure:
     Description: A short description
     Test Suite:
+     - 19
      - 20:
        Description: A short Description for test suite
