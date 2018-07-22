@@ -5,11 +5,11 @@ Platform:
      - Test Suite 1
      - Test Suite 2
 - Cloud Platform 2(GCP):
-    description: A short description
+    Description: A short description
     Test Suite:
      - Test Suite 2
 - Cloud Platform 3(Azure):
-    description: A short description
+    Description: A short description
     Test Suite:
       - Test Suite 1
       - Test Suite 2
